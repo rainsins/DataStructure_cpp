@@ -58,7 +58,7 @@ private:
 
     //右转
     RBNode<Key,Value> rotateRight(RBNode<Key,Value> &h){
-        RBNode *x = h.left;
+        RBNode<Key,Value> = h.left;
         h.left = x.right;
         x.right = h;
         x.color = h.color;
@@ -101,7 +101,7 @@ private:
     }
 
     //删除
-
+    
 
 
 public:
@@ -119,7 +119,7 @@ public:
     }
 
     void deleteMax(){
-        
+
     }
 
     void Delete(Key &key){
