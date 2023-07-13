@@ -1,5 +1,5 @@
 #include <iostream>
-#include "header/Bitree.hpp"
+#include "header/Sort.hpp"
 #include <ctime>
 #include <cstring>
 
@@ -8,10 +8,7 @@ using namespace std;
 int main()
 {
 
-    Bitree<int> *aa = new Bitree<int>();
-
-    aa->PreOrder_NotRecu();
-
-    cout << "ss" << endl;
+    int a[10] = {1,3,4,1,3,3,3};
+    return 0;
     
 }

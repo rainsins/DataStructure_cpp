@@ -8,8 +8,8 @@ using Color = bool;
 template <class Key, class Value> 
 class RBNode{
 private:
-    Key Key;
-    Value Value;
+    Key key;
+    Value value;
     RBNode<Key,Value> left;
     RBNode<Key,Value> right;
     int N;
@@ -17,8 +17,8 @@ private:
 
 public:
     RBNode(Key &ikey, Value &ivalue, int inum, Color &c){
-        Key = ikey;
-        Value = ivalue;
+        key = ikey;
+        value = ivalue;
         N = inum;
         color = c;
         left = right = nullptr;
@@ -115,7 +115,7 @@ public:
     }
 
     void deleteMin(){
-
+        
     }
 
     void deleteMax(){
