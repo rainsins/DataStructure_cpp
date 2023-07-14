@@ -1,5 +1,6 @@
 #include <iostream>
 #include "header/Sort.hpp"
+#include <vector>
 #include <ctime>
 #include <cstring>
 
@@ -8,7 +9,14 @@ using namespace std;
 int main()
 {
 
-    int a[10] = {1,3,4,1,3,3,3};
+    vector<int> a = Sort<int>::generateRandomA(20, 0, 4638);
+
+    Sort<int>::show(a);
+
+    Sort<int>::Selection(a);
+
+    Sort<int>::show(a);
+
     return 0;
     
 }
