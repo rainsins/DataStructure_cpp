@@ -301,9 +301,7 @@ public:
             if (isImg)
                 show_lzb(a, i, "冒泡排序");
             if (!tag)
-            {
                 return;
-            }
         }
     }
 

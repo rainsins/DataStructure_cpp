@@ -20,9 +20,9 @@ std::vector<T> create_copy(std::vector<T> const &vec)
 
 int main()
 {
-    int max = 90000;
+    int max = 20000;
     int min = 0;
-    int num = 90000;
+    int num = 10000;
     vector<int> a = Sort<int>::generateRandomA(num, min, max);
     vector<int> a1 = create_copy<int>(a);
     vector<int> a2 = create_copy<int>(a);
